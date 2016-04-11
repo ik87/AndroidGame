@@ -1,9 +1,9 @@
-package com.worldown.framework.implementation;
+package com.kilobolt.framework.implementation;
+
+import com.kilobolt.framework.Image;
+import com.kilobolt.framework.Graphics.ImageFormat;
 
 import android.graphics.Bitmap;
-
-import com.worldown.framework.Image;
-import com.worldown.framework.Graphics.ImageFormat;
 
 public class AndroidImage implements Image {
 	Bitmap bitmap;

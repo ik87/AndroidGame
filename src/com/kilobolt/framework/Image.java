@@ -1,6 +1,6 @@
-package com.worldown.framework;
+package com.kilobolt.framework;
 
-import com.worldown.framework.Graphics.ImageFormat;
+import com.kilobolt.framework.Graphics.ImageFormat;
 
 public interface Image {
 	public int getWidth();

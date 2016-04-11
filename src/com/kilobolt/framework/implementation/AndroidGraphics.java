@@ -1,7 +1,10 @@
-package com.worldown.framework.implementation;
+package com.kilobolt.framework.implementation;
 
 import java.io.IOException;
 import java.io.InputStream;
+
+import com.kilobolt.framework.Graphics;
+import com.kilobolt.framework.Image;
 
 import android.content.res.AssetManager;
 import android.graphics.Bitmap;
@@ -12,9 +15,6 @@ import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.Paint.Style;
 import android.graphics.Rect;
-
-import com.worldown.framework.Graphics;
-import com.worldown.framework.Image;
 
 public class AndroidGraphics implements Graphics {
 	

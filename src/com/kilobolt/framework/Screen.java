@@ -1,4 +1,4 @@
-package com.worldown.framework;
+package com.kilobolt.framework;
 
 public abstract class Screen {
 	protected final Game game;

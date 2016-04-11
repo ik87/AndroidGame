@@ -1,6 +1,8 @@
-package com.worldown.framework.implementation;
+package com.kilobolt.framework.implementation;
 
 import java.io.IOException;
+
+import com.kilobolt.framework.Music;
 
 import android.content.res.AssetFileDescriptor;
 import android.media.MediaPlayer;
@@ -8,8 +10,6 @@ import android.media.MediaPlayer.OnCompletionListener;
 import android.media.MediaPlayer.OnPreparedListener;
 import android.media.MediaPlayer.OnSeekCompleteListener;
 import android.media.MediaPlayer.OnVideoSizeChangedListener;
-
-import com.worldown.framework.Music;
 
 public class AndroidMusic implements Music, OnCompletionListener, OnSeekCompleteListener, OnPreparedListener, OnVideoSizeChangedListener {
     MediaPlayer mediaPlayer;

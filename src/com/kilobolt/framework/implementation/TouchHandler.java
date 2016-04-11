@@ -1,10 +1,10 @@
-package com.worldown.framework.implementation;
+package com.kilobolt.framework.implementation;
 
 import java.util.List;
 
-import android.view.View.OnTouchListener;
+import com.kilobolt.framework.Input.TouchEvent;
 
-import com.worldown.framework.Input.TouchEvent;
+import android.view.View.OnTouchListener;
 
 public interface TouchHandler extends OnTouchListener {
 	public boolean isTouchDown(int pointer);
